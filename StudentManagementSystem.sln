@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagementSystem", "StudentManagementSystem\StudentManagementSystem.csproj", "{721C2644-7A58-4584-B9C8-58C837CA9617}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSClassLibrary", "SMSClassLibrary\SMSClassLibrary.csproj", "{CAC6E90D-9156-47E1-B3AF-E29968B5F63C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{721C2644-7A58-4584-B9C8-58C837CA9617}.Debug.ActiveCfg = Debug|.NET
+		{721C2644-7A58-4584-B9C8-58C837CA9617}.Debug.Build.0 = Debug|.NET
+		{721C2644-7A58-4584-B9C8-58C837CA9617}.Release.ActiveCfg = Release|.NET
+		{721C2644-7A58-4584-B9C8-58C837CA9617}.Release.Build.0 = Release|.NET
+		{CAC6E90D-9156-47E1-B3AF-E29968B5F63C}.Debug.ActiveCfg = Debug|.NET
+		{CAC6E90D-9156-47E1-B3AF-E29968B5F63C}.Debug.Build.0 = Debug|.NET
+		{CAC6E90D-9156-47E1-B3AF-E29968B5F63C}.Release.ActiveCfg = Release|.NET
+		{CAC6E90D-9156-47E1-B3AF-E29968B5F63C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
